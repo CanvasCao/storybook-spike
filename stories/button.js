@@ -1,6 +1,6 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import Button from 'antd/lib/button';
+import {Button} from 'antd';
 
 storiesOf('Button')
     .addWithInfo(

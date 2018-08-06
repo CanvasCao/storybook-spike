@@ -54,7 +54,7 @@
   "devDependencies": {
     "@storybook/addon-info": "^3.4.10",
     "@storybook/react": "^3.4.10",
-    "babel-core": "^6.26.3",
+    "less": "^3.8.0",
     "less-loader": "^4.1.0",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.1.0",
