@@ -1,0 +1,6 @@
+@import "variable.scss";
+
+.ant-btn {
+  border-top-left-radius: var(--borderRadius) !important;
+  border-bottom-right-radius: var(--borderRadius) !important;
+}

@@ -15,6 +15,7 @@ function importAll(r) {
 
 function loadStories() {
     require("../stories/color")
+    require("../stories/typography")
     require("../stories/button")
     importAll(require.context("../src/components", true, /\-story\.js$/))
 }
