@@ -1,40 +1,40 @@
-:local{
-  tr:nth-child(1) {
-    font-size: 12px;
-  }
-
-  tr:nth-child(2) {
-    font-size: 13px;
-  }
-
-  tr:nth-child(3) {
-    font-size: 14px;
-  }
-
-  tr:nth-child(4) {
-    font-size: 16px;
-  }
-
-  tr:nth-child(5) {
-    font-size: 18px;
-  }
-
-  tr:nth-child(6) {
-    font-size: 20px;
-  }
-
-  tr {
+.typography {
+  div {
     display: table;
     width: 800px;
   }
 
-  td:nth-of-type(1){
+  & > div:nth-of-type(1) {
+    font-size: 12px;
+  }
+  & > div:nth-of-type(2) {
+    font-size: 13px;
+  }
+  & > div:nth-of-type(3) {
+    font-size: 14px;
+  }
+  & > div:nth-of-type(4) {
+    font-size: 16px;
+  }
+  & > div:nth-of-type(5) {
+    font-size: 18px;
+  }
+  & > div:nth-of-type(6) {
+    font-size: 20px;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  span:nth-of-type(1) {
     width: 200px;
   }
-  td:nth-of-type(2){
+  span:nth-of-type(2) {
     width: 200px;
   }
-  td:nth-of-type(3){
+  span:nth-of-type(3) {
     width: 400px;
   }
 }
+

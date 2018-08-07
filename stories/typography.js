@@ -4,37 +4,37 @@ import './typography.scss'
 
 storiesOf("Typography", module).add("Default", () => {
     return (
-        <tbody>
-            <tr>
-                <td>12px</td>
-                <td>I am font</td>
-                <td>备注</td>
-            </tr>
-            <tr>
-                <td>13px</td>
-                <td>I am font</td>
-                <td>filter提示，以及仅次于正文的内容</td>
-            </tr>
-            <tr>
-                <td>14px</td>
-                <td>I am font</td>
-                <td>正文</td>
-            </tr>
-            <tr>
-                <td>16px</td>
-                <td>I am font</td>
-                <td>重点内容</td>
-            </tr>
-            <tr>
-                <td>18px</td>
-                <td>I am font</td>
-                <td>小标题</td>
-            </tr>
-            <tr>
-                <td>20px</td>
-                <td>I am font</td>
-                <td>大标题</td>
-            </tr>
-        </tbody>
+        <div className='typography'>
+            <div>
+                <span>12px</span>
+                <span>I am font</span>
+                <span>备注</span>
+            </div>
+            <div>
+                <span>13px</span>
+                <span>I am font</span>
+                <span>filter提示，以及仅次于正文的内容</span>
+            </div>
+            <div>
+                <span>14px</span>
+                <span>I am font</span>
+                <span>正文</span>
+            </div>
+            <div>
+                <span>16px</span>
+                <span>I am font</span>
+                <span>重点内容</span>
+            </div>
+            <div>
+                <span>18px</span>
+                <span>I am font</span>
+                <span>小标题</span>
+            </div>
+            <div>
+                <span>20px</span>
+                <span>I am font</span>
+                <span>大标题</span>
+            </div>
+        </div>
     )
 })
