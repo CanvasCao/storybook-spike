@@ -1,28 +1,40 @@
-tr:nth-child(1) {
-  font-size: 12px;
-}
+:local{
+  tr:nth-child(1) {
+    font-size: 12px;
+  }
 
-tr:nth-child(2) {
-  font-size: 13px;
-}
+  tr:nth-child(2) {
+    font-size: 13px;
+  }
 
-tr:nth-child(3) {
-  font-size: 14px;
-}
+  tr:nth-child(3) {
+    font-size: 14px;
+  }
 
-tr:nth-child(4) {
-  font-size: 16px;
-}
+  tr:nth-child(4) {
+    font-size: 16px;
+  }
 
-tr:nth-child(5) {
-  font-size: 18px;
-}
+  tr:nth-child(5) {
+    font-size: 18px;
+  }
 
-tr:nth-child(6) {
-  font-size: 20px;
-}
+  tr:nth-child(6) {
+    font-size: 20px;
+  }
 
-tr {
-  display: table;
-  width: 400px;
+  tr {
+    display: table;
+    width: 800px;
+  }
+
+  td:nth-of-type(1){
+    width: 200px;
+  }
+  td:nth-of-type(2){
+    width: 200px;
+  }
+  td:nth-of-type(3){
+    width: 400px;
+  }
 }

@@ -20,4 +20,3 @@ import "antd/lib/menu/style/index.less"
 import "antd/lib/cascader/style/index.less"
 import "antd/lib/tree-select/style/index.less"
 import "antd/lib/switch/style/index.less"
-
