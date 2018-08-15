@@ -9,9 +9,7 @@ export class Container extends Component {
                 role="main"
                 style={{
                     padding: "3em",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
+                    width: "100%"
                 }}>
                 {story()}
             </div>

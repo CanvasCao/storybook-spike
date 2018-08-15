@@ -18,6 +18,7 @@ function loadStories() {
     require("../stories/typography")
     require("../stories/button")
     require("../stories/form")
+    require("../stories/responsive")
     importAll(require.context("../src/components", true, /\-story\.js$/))
 }
 

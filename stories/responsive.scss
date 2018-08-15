@@ -1,0 +1,14 @@
+.col {
+  display: inline-block;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: deepskyblue;
+}
+
+.col:nth-of-type(2n){
+  background-color: cornflowerblue;
+}
+
+.row {
+  width: 100%;
+}
